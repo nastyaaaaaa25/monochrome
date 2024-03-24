@@ -1,0 +1,1438 @@
+@import url("./style_fonts.css");
+*{
+    font-family: 'NeutralFace';
+}
+body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.section-navigation{
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.streigh1{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    border-bottom-style: solid;
+    border-color: black;
+    text-transform: uppercase;
+    border-bottom-width: 0.5px;
+
+}
+.streigh1 .hrefs{
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+span{height: 39px;width: 29px ; display:block; position:relative; padding: 0 5px;}
+ 
+.lupa:before, .lupa:after{content:''; height:10px; display:block; position:absolute; top:0; left:0; }
+ 
+.lupa:before{width:10px; border:1px #000000 solid; border-radius:100%;-webkit-border-radius:100%;-moz-border-radius:100%;top:11px; left:12px;}
+ 
+.lupa:after{width:1px; background:#000000; transform:rotate(-45deg);-webkit-transform:rotate(-45deg);-moz-transform:rotate(-45deg);-o-transform:rotate(-45deg);-ms-transform:rotate(-45deg); top:20px; left:23px;}
+
+.streigh1 .hrefs a{
+    padding: 0 5px;
+    color: #000000;
+    text-decoration: none;
+}
+.streigh1  .hrefs a#\31{
+    color: #7f7f7f;
+}
+.streigh1 .hrefs [src ="./img/user-svgrepo-com (1).svg"]{
+    height: 20px;
+    padding: 0 5px;
+}
+[src="./img/globe.svg"]{
+    padding: 0px 7px 0px 0px;
+}
+.streigh1 h3{
+    padding: 0 35%;
+}
+div.section-big-foto{
+    width: 1200px;
+    height: 641.281px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.streigh2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-style: solid;
+    border-color: black;
+    text-transform: uppercase;
+    border-bottom-width: 0.5px;
+}
+.streigh2 a{
+    padding: 1%;
+    color : black;
+}
+div .big-container{
+    width: 917px;
+    align-items: end;
+}
+div .big-container img{
+    padding: 15px;
+}
+div .big-container h1{
+    padding: 0 15px;
+    text-transform: uppercase;
+    font-size: 138px;
+    margin: 0;
+    font-weight: 100;
+}
+
+div .little-container{
+    width: 270px;
+    height: 641.281px;
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+    transform: translateY(13px);
+
+}
+div .little-container .container{
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    height: 487.28099999999995px;
+
+}
+div .little-container .container p{
+font-family: 'Manrope';
+padding-bottom: 23px;
+font-size: 15px;
+font-weight: 200;
+}
+
+.section-big-foto{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 1200px;
+}
+.section-kategories{
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.section-kategories div.mini-icon{
+
+    padding: 15px;
+    flex-direction: column-reverse;
+    display: flex;
+}
+.section-kategories div.mini-icon p{
+    font-family: 'Manrope';
+}
+.section-kategories .title{
+    width: 100%;
+}
+.title h1{
+    padding-left: 15px;
+    text-transform: uppercase;
+    font-size: 70px;
+    font-weight: 100;
+}
+.section-new-kollection{
+    background-image: url(./img/6.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center center ;
+    background-attachment: fixed;
+    
+    width: 100%;
+    height:600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section-new-kollection .news{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-100px);
+    color:rgb(255, 255, 255);
+    
+}
+.section-new-kollection .news .text{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.section-new-kollection .news h1{
+    text-transform: uppercase;
+    font-size: 70px;
+    font-weight: 100;
+    
+}
+.section-new-kollection .news h1{
+    margin: 0;
+}
+.section-new-kollection .news h2{
+    font-weight: 100;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: 'Manrope';
+    text-transform: none;
+}
+.news{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.section-new-kollection button{
+    height: 50px;
+    width: 200px;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.section-display{
+    width: 1200px;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    font-size: 15px;
+}
+.section-display .title-big{
+    width: 100%;
+}
+.section-display .colors {
+    display: flex;
+    font-family: 'Manrope';
+
+}
+
+.colors .namber1 img{
+    height: 490px;
+}    
+
+.colors .namber3 p, .namber1 p, .namber2 p, .namber4 p{
+    margin-top: 20px;
+    font-family: 'Manrope';
+}
+.help .namber3{
+    padding-top: 14px;
+}
+.help{
+    padding: 0 40px;
+}
+.section-display .title-big{
+    display: flex;
+    flex-direction: column;
+
+}
+.section-display .title-big h1{
+    font-size: 70px;
+    text-transform: uppercase;
+    font-weight: 100;
+    margin: 0;
+}
+.section-display .title-big h2{
+    font-size: 70px;
+    text-transform: uppercase;
+    font-weight: 100;
+    margin: 0;
+    align-self: flex-end;
+padding-bottom: 50px;
+}
+.section-choice{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 1200px;
+    padding-top: 35px;
+    padding-bottom: 100px;
+}
+.section-choice img{
+    height: 700px;
+    padding-right: 50px;
+}
+.description{
+    width: 550px;
+    height: 700px;
+    padding-left: 60px;
+
+}
+.description .title h1{
+    font-size: 55px;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    color: #000000;
+}
+.description .title{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.description .title p{
+    width: 100%;
+    color: #000000;
+}
+.description p, p1 {
+    font-family: 'Manrope';
+    font-size: 20px;
+    color: #000000;
+}
+
+.description .input .input-number {
+    position: relative;
+}
+.input-number{
+    width: 455px;
+}
+.input-text__input{
+    width: 2px;
+}
+ .description .input-number__input {
+    border-radius: 7px;
+    padding-left: 10px;
+    border: 1px solid #d0c4db;
+    outline: none;
+    width: 454px;
+    height: 50px;
+    transition: .2s;
+}
+
+.input-number:hover .input-number__input,
+.input-number:focus .input-number__input {
+    border-color: #888;
+}
+
+.input-number__top {
+    width: 0px;
+    border: 5px solid transparent;
+    border-bottom: 7px solid #d0c4db;
+    position: absolute;
+    top: 5%;
+    right: 5px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.input-number__top:hover {
+    border-bottom-color: #888;
+}
+
+.input-number__bottom {
+    width: 0px;
+    border: 5px solid transparent;
+    border-top: 7px solid #d0c4db;
+    position: absolute;
+    top: 60%;
+    right: 5px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.input-number__bottom:hover {
+    border-top-color: #888;
+}
+.input-text{
+    width:60%;
+
+}
+ .description .input-text__input {
+    border-radius: 7px;
+    padding-left: 10px;
+    border: 1px solid #d0c4db;
+    outline: none;
+    width:267px;
+    height: 50px;
+    transition: .2s;
+}
+.description .cost{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.description button{
+    width: 100%;
+    height: 60px;
+    border-color: #000000;
+    background-color: #000000;
+
+}
+.description button a{
+    color: white;text-transform: none;
+    text-decoration: none;
+}
+.gg-lock {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 12px;
+    height: 11px;
+    border: 2px solid;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom: transparent;
+    margin-top: -12px
+}
+.gg-lock::after {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 16px;
+    height: 10px;
+    border-radius: 2px;
+    border: 2px solid transparent;
+    box-shadow: 0 0 0 2px;
+    left: -4px;
+    top: 9px;
+    width: 25px;
+    height: 15px;
+
+}
+.section-advantages{
+    width: 100%;
+    height: 300px;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+}
+.section-advantages .icon h3 {
+    color: #ffffff;
+}
+.section-advantages .icon3 p{
+    color: #ffffff;
+    font-family: 'Manrope';
+    margin: 0;
+}
+.section-advantages .gg-lock{
+    color:hsla(0, 0%, 97%, 0.635);
+    width: 20px;
+    height: 10px;
+}
+.section-advantages .icon3{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: flex-start;
+    transform: translateY(34px);
+
+}
+.section-advantages .icon4{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: flex-start;
+    transform: translateY(17px);
+
+}
+.section-advantages .icon2{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: flex-start;
+    transform: translateY(17px);
+
+} 
+.section-advantages .icon1 p{
+    color: #ffffff;
+    font-family: 'Manrope';
+    margin: 0;
+}
+
+.section-advantages .icon4 p{
+    color: #ffffff;
+    font-family: 'Manrope';
+    margin: 0;
+}
+
+.section-advantages .icon2 p{
+    color: #ffffff;
+    font-family: 'Manrope';
+    margin: 0;
+
+}
+.section-advantages .icon1{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: flex-start;
+
+}
+.section-advantages .icon4{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: flex-start;
+
+}
+.section-advantages .icon3 h3{
+    padding-top: 49px;
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+    
+
+}
+.section-advantages .icon2 h3{
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+    padding-top: 30px;
+
+}
+.section-advantages .icon1 h3{
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+    padding-top: 30px;
+
+}
+.section-advantages .icon4 h3{
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+    padding-top: 30px;
+
+}
+.streights .input-text__input{
+    padding-left: 10px;
+    border: 1px solid #d0c4db;
+    outline: none;
+    width: 485px;
+    height: 50px;
+    transition: .2s;
+    background-color: #000000;
+}
+.streights .input-number__input{
+    padding-left: 10px;
+    border: 1px solid #d0c4db;
+    outline: none;
+    width: 485px;
+    height: 50px;
+    transition: .2s;
+    background-color: #000000;
+}
+.section-advantages .icon1{
+    width: 280px;
+    height: 200px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+}
+.section-advantages .icon2{
+    width: 280px;
+    height: 200px;
+    padding: 10px;
+}
+.section-advantages .icon3{
+    width: 300px;
+    padding: 10px;
+}
+.section-advantages .icon4{
+    width: 280px;
+    height: 200px;
+    padding: 10px;}
+
+.section-about_us{
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+}
+.section-choice .textik{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.section-about_us .container{
+    padding-left: 50px;
+}
+.section-about_us img{
+    height: 600px;
+}
+.section-about_us h1{
+    font-size: 55px;
+}
+.section-about_us p{
+   font-family: 'Manrope'; 
+   font-weight:400;
+}
+.section-form{
+    width: 100%;
+    background-color: #000000;
+    border-bottom: #eadef67e;
+    border-bottom-style: solid;
+    border-color: rgba(255, 255, 255, 0.522);
+    border-bottom-width: 1.5px;
+
+}
+.section-form .title-big h1{
+    color: #ffffff;
+    font-size: 50px;
+}
+.section-form .title-big h2{
+    color: #ffffff;
+    font-size: 50px;
+}
+.section-footer{
+    width: 100%;
+    background-color: #000000;
+}.section-form .title-big {
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+
+}
+.section-form .title-big h2{
+    align-self: flex-end;
+    font-size: 90px;
+    font-weight: 500;
+    font-family: 'Manrope';
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 50px;
+}
+.section-form .title-big h1{
+    font-size: 90px;
+    font-weight: 500;
+    font-family: 'Manrope';
+    text-transform: uppercase;
+    margin: 0;
+}
+.section-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+}
+.section-form .big{
+    display: flex;
+    flex-direction: row;
+    width: 1200px;
+    align-items: center;
+    justify-content: center;
+}
+.section-form .container{
+    width: 570px;
+    padding-right: 120px;
+    height: 600px;
+}
+.section-form .container p{
+    color: white;
+    font-family: 'Manrope';
+    font-size: 23px;
+    margin-top: 0;
+}
+.section-form .left{
+    width: 700px;
+    height: 600px;
+
+}
+.section-form .left p{
+    color: white;
+    font-family: 'Manrope';
+}
+.section-form .left button p{
+    color: black;
+    text-transform: uppercase;
+}
+.section-form .left .checkboxes p{
+    width: 100%;
+}
+.section-form .left .checkboxes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+    width: 546px;
+
+
+}
+.section-form .left input[type="checkbox" i]{
+    accent-color: black;
+    border: 100px;
+}
+.section-form .left .input-number__input{
+    color: #ffffff81;
+    font-family: 'Manrope';
+}
+.section-form .left .input-text__input{
+    color: #ffffff81;
+    font-family: 'Manrope';
+}
+.section-form .left .checkboxes div{
+    width: 182px;
+}
+.section-form .left .checkboxes label{
+    color: rgb(255, 255, 255);
+    font-family: 'Manrope';
+    font-size: 15px;
+}
+.section-form .left label{
+    color: white;
+    font-family: 'Manrope';
+}
+.section-form .left button{
+    margin-top: 20px;
+    width: 500px;
+}
+.section-form div.left input[type="radio" i]{
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 20px;
+    accent-color: rgb(255, 255, 255);
+    padding: 10px;
+}
+.section-footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section-footer a{
+    color: rgb(255, 255, 255);
+    font-family: 'Manrope';
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.section-footer .footer{
+    width: 1100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.section-footer .mini-con{
+    padding: 50px 0;
+}
+@media(max-width: 1200px){
+    .container{
+        width: 1140px;
+    }
+    .streigh1 h3 {
+        padding: 0 20%;
+    }
+    div.section-big-foto {
+        display: flex;
+        flex-direction: column;
+        height: 1100px;
+    }
+    div .little-container{
+        height: 515.281px;
+    }
+    div .little-container .container{
+        flex-direction: row;
+    }
+    div .little-container .container p{
+        padding-right: 50px;
+        font-size: 20px;
+        text-align: right;
+        padding-bottom: 0;
+        align-items: end;
+        display: flex;
+        transform: translateY(-100px);
+
+    }
+    div .little-container .container{
+        width: 598px;
+    }
+    div .little-container{
+        width: 764px;
+    }
+    div .little-container img{
+        height: 450px;
+    }
+    div .big-container h1{
+        font-size: 100px;
+        text-align: center;
+    }
+    .title h1{
+        font-size: 50px;
+        text-align: center;
+    }
+    .section-kategories div.mini-icon img{
+        width: 340px;
+        height: 400px;
+    }
+    .section-display .title-big{
+        width: 1000px;
+    }
+    .section-display .colors .namber4 img{
+       height: 400px; 
+       width: 300px;
+    }
+    .section-display .colors .namber1 img{
+        height: 400px; 
+        width: 300px;
+     }
+     .section-display .colors{
+        display: flex;
+        align-items: center;
+     }
+     .description{
+        padding: 0;
+     }
+     .description .input-text__input{
+        width: 305px;
+     }
+     .description .input-number__input {
+        width: 515px;
+     }
+     .input-number {
+        width: 506px;
+    }
+    .section-choice img{
+        height: 500px;width: 400px;
+    }
+    .description .input-number__input {
+        width: 533px;
+    }
+    .description .input-text__input {
+        width: 315px;
+    }
+    .section-about_us img {
+        height: 331px;
+    }
+    .section-about_us .container{
+        width: 500px;
+    }
+    .section-form .title-big{
+        width: 1000px;
+        display: flex;
+        align-items: center;
+    }
+    .section-form .left button {
+        width: 452px;
+    }
+    .streights .input-number__input{
+        width: 432px;
+    }
+    .streights .input-text__input{
+        width: 432px;
+    }
+    .section-form .left {
+        width: 450px;
+    }
+    .section-form .container{
+        padding-right: 50px;
+    }
+    .section-form .container {
+        width: 500px;
+    }
+    .section-form .container img {
+        width: 490px;
+        height: 328px;
+    }
+    .section-footer .footer{
+        width: 1000px;
+    }
+
+
+    
+    
+}
+@media(max-width: 992px){
+    .container{
+        width: 960px;
+    }
+    .section-kategories div.mini-icon img {
+        width: 229px;
+        height: 285px;
+    }
+    .section-display .title-big{
+        width: 700px;
+    }
+    .section-display {
+        height: 750px;
+    }
+    .section-display .colors .help .namber3 img{
+        width: 334px;
+    
+    }
+    .section-display .colors .help .namber2 img{
+        width: 334px;
+        padding-bottom: 14px;
+    
+    }
+    .section-display .colors .help .namber2 p{
+        margin: 0;
+    }
+    .section-display .colors .help{
+        padding: 0 10px;
+    }
+    .section-display .colors .namber1 img {
+        height: 262px;
+        width: 182px;
+    }
+    .section-display .colors .namber4 img {
+        height: 262px;
+        width: 182px;
+    }
+    .description {
+        width: 467px;
+        height: 514px 
+    }
+    .description p ,p1{
+        font-size: 15px;
+    }
+    .description .input-text__input {
+        width: 266px;
+        align-self: flex-end;
+    }
+    .description .cost h1{
+        font-size: 25px;
+    }
+    .description .cost{
+        padding: 10px 0;
+    }
+    .input-number {
+        width: 449px;
+    }
+    .description .input-number__input{
+        width: 451px;
+    }
+    .description .title h1{
+        width: 150px;
+        font-size: 45px;
+    }
+    .section-form .title-big h2{
+        font-size: 70px;
+        align-self: center;
+    }
+    .section-form .title-big h1{
+        font-size: 70px;
+        align-self: center;
+    }
+    .section-form .container p{
+        font-size: 15px;
+    }
+    .section-form .container img {
+        width: 298px;
+        height: 211px;
+    }
+    .section-form .container {
+        width: 310px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .section-footer a{
+        font-size: 10px;
+
+    }
+    .section-footer .footer{
+        width: 780px;
+    }
+    
+
+    
+}
+@media(max-width: 768px){
+    .container{
+        width: 740px;
+    }
+    .streigh2 a{
+        font-size: 15px;
+    }
+    .streigh2 a {
+        padding: 2%;
+        color: black;
+        font-size: 10px;
+    }
+    div .big-container h1 {
+        font-size: 80px;
+    }
+    .section-big-foto .big-container img{
+        width: 725px;
+    }
+    div .big-container {
+        width: 917px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    div .little-container {
+        width: 597px;
+    }
+    .section-kategories {
+        width: 698px;
+    }
+    .section-new-kollection .news h1 {
+        font-size: 50px;
+    }
+    .section-new-kollection .news h2 {
+        font-weight: 100;
+        width: 313px;
+        padding-bottom: 20px;
+        margin-top: 10px;
+        font-size: 15px;
+        font-family: 'Manrope';
+        text-transform: none;
+    }
+    .section-new-kollection button {
+        height: 31px;
+        width: 166px;
+        font-size: 10px;
+        text-transform: uppercase;
+    }
+    .section-choice img {
+        height: 390px;
+        width: 336px;
+        padding-bottom: 50px;
+    }
+    .section-display .title-big h1{
+        font-size: 50px;
+    }
+    .section-display .title-big h2{
+        font-size: 50px;
+    }
+    .section-display .title-big {
+        width: 496px;
+    }
+    .section-display{
+        padding-top: 19px;
+        height: 674px;
+    }
+    .section-choice{
+        display: flex;
+    flex-direction: column;
+    }
+    .section-choice img{
+        padding-right: 0;
+    }
+    .section-advantages .icon1{
+        transform: translateY(-5px);
+    }
+    .section-advantages .icon1 p{
+        font-size: 10px;
+    }
+    .section-advantages .icon2 p{
+        font-size: 10px;
+    }
+    .section-advantages .icon3 p{
+        font-size: 10px;
+    }
+    .section-advantages .icon4 p{
+        font-size: 10px;
+    }
+    .section-about_us p {
+        font-family: 'Manrope';
+        font-weight: 400;
+        font-size: 12px;
+        width: 436px;
+    }
+    .section-about_us img {
+        height: 331px;
+        padding-left: 70px;
+    }
+    .section-form .container{
+        height: 354px;
+    }
+    .section-form .big{
+        display: flex;
+        flex-direction: column;
+    }
+    .section-form .title-big h2{
+        margin-bottom: 10px;
+    }
+    .section-form .container img{
+        transform: translateY(-54px);
+        z-index: 0;
+    }
+    .section-form .container p{
+        text-align: center;
+        transform: translateY(200px);
+        z-index: 1;
+    }
+    .section-footer .footer {
+        width: 628px;
+    }
+}
+@media(max-width: 576px){
+    .container{
+        width: 98%;
+    }
+    .streigh1 .hrefs a{
+        font-size: 10px;
+    }
+    .section-big-foto .big-container img {
+        width: 525px;
+    }
+    [src="./img/globe.svg"] {
+        padding: 0px 7px 0px 0px;
+        height: 13px;
+    }
+    div .little-container {
+        width: 575px;
+    }
+    div .little-container img {
+        height: 340px;
+    }
+    div.section-big-foto {
+        display: flex;
+        flex-direction: column;
+        height: 737px;
+    }
+    div .little-container .container p{
+        height: 100px;
+    }
+    div .little-container .container p {
+        height: 290px;
+    }
+    div .little-container .container p{
+        font-size: 15px;
+        width: 207px
+    }
+    div .little-container .container{
+        justify-content: center;
+        height: 340px;
+    }
+    .title h1 {
+        font-size: 40px;
+        padding: 0;
+    }
+    .section-kategories div.mini-icon img {
+        width: 203px;
+        height: 240px;
+    }
+    .section-kategories {
+        width: 100%;
+    }
+    .section-new-kollection{
+        height: 400px;
+        background-attachment: local;
+    }
+    .section-new-kollection .news{
+        transform: translateY(10px);
+
+    }
+    .section-display {
+        padding-top: 19px;
+        height: 1353px;
+    }
+    .section-display .colors{
+        flex-direction: column;
+    }
+    .section-display .colors .namber1{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .section-display .colors .namber2{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .section-display .colors .namber3{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .section-display .colors .namber4{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .section-advantages .icon1 {
+        width: 89px;
+    }
+    .section-advantages .icon1 h3 {
+        font-size: 12px;
+    }
+    .section-advantages .icon2 {
+        width: 108px;
+    }
+    .section-advantages .icon2 h3 {
+        font-size: 12px;
+    }
+    .section-advantages .icon3 {
+        width: 108px;
+    }
+    .section-advantages .icon3 h3 {
+        font-size: 12px;
+    }
+    .section-advantages .icon4 {
+        width: 108px;
+    }
+    .section-advantages .icon4 h3 {
+        font-size: 12px;
+    }
+    .section-about_us img {
+        height: 270px;
+        padding-left: 270px;
+    }
+    .section-about_us p {
+        font-family: 'Manrope';
+        font-weight: 400;
+        font-size: 12px;
+        width: 231px;
+    }
+    .section-about_us h1 {
+        font-size: 55px;
+        margin: -3px;
+    }
+    .section-form .title-big h1 {
+        font-size: 50px;
+        align-self: center;
+    }
+    .section-form .title-big h2 {
+        font-size: 50px;
+        align-self: center;
+    }
+    .section-form .container {
+        padding-right: 0;
+    }
+    .section-footer a {
+        font-size: 10px;
+        text-align: center;
+        width: 103px;
+    }
+    .section-footer .footer {
+        width: 448px;
+    }
+}
+@media(max-width:480px){
+    .container{
+        width: 98%;
+    }
+    span {
+        height: 39px;
+        width: 7px;
+        display: block;
+        position: relative;
+        padding: 0 12px;
+    }
+    .streigh1 h3 {
+        padding: 0 13%;
+        font-size: 15px;
+    }
+    div .big-container h1 {
+        font-size: 60px;
+    }
+    .section-big-foto .big-container img {
+        width: 418px;
+    }
+    div .little-container img {
+        height: 272px;
+    }
+    .section-kategories div.mini-icon img {
+        width: 192px;
+        height: 209px;
+    }
+    .section-kategories div.mini-icon p {
+        font-family: 'Manrope';
+        font-size: 12px;
+    }
+    .section-new-kollection .news h1 {
+        font-size: 40px;
+    }
+    .section-display .title-big h1 {
+        font-size: 35px;
+    }
+    .section-display .title-big h2 {
+        font-size: 35px;
+    }
+    .section-display .title-big {
+        width: 427px;
+    }
+    .description {
+        width: 396px;
+        height: 514px;
+    }
+    .description p, p1 {
+        font-size: 12px;
+    }
+    .description .title p{
+        width: 240px;
+    
+    }
+    .description .title .mark{
+        width: 24px;
+    }
+    .description .input-number__input {
+        width: 385px;
+    }
+    .input-number {
+        width: 385px;
+    }
+    .description .cost h1 {
+        font-size: 20px;
+    }
+    .description .input-text__input {
+        width: 227px;
+    }
+    .description button {
+        width: 158px;
+        height: 44px;
+        border-color: #000000;
+        background-color: #000000;
+        margin: 10px 0;
+    }
+    .description button a {
+        font-size: 10px;
+    }
+    .section-advantages .icon1 {
+        width: 63px;
+        height: 188px;
+        padding: 2%;
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+        justify-content: flex-end;
+        transform: translateY(2px);
+    }
+    .section-advantages .icon1 h3 {
+        font-size: 11px;
+    }
+    .section-advantages .icon2 {
+        width: 70px;
+        padding: 2%;
+        display: flex;
+        justify-content: center;
+        transform: translateY(9px);
+    }
+    .section-advantages .icon2 h3 {
+        font-size: 11px;
+    }
+    .section-advantages .icon3 {
+        width: 70px;
+        padding: 2%;
+        transform: translateY(48px);
+        padding-right: 29px;
+    }
+    .section-advantages .icon3 h3 {
+        font-size: 11px;
+        padding-top: 46px;
+    }
+    .section-advantages .icon4 {
+        width: 70px;
+        padding: 2%;
+        display: flex;
+        justify-content: center;
+    }
+    .section-advantages .icon4 h3 {
+        font-size: 11px;
+        width: 100px;
+        width: 78px;
+    }
+    .gg-lock::after {
+        width: 18px;
+        height: 10px;
+    }
+    .section-advantages .gg-lock {
+        color: hsl(0deg 0% 100%);
+        width: 14px;
+        height: -1px;
+
+    }
+    .section-advantages .icon1 img{
+        height: 100px;
+    }
+    .section-advantages .icon1 img {
+        height: 26px;
+    }
+    .section-advantages .icon2 img {
+        height: 26px;
+    }
+    .section-advantages .icon4 img {
+        height: 26px;
+    }
+    .section-about_us p {
+        font-family: 'Manrope';
+        font-weight: 400;
+        font-size: 10px;
+        width: 204px;
+    }
+    .section-form .title-big h1 {
+        font-size: 40px;
+    }
+    .section-form .title-big h2 {
+        font-size: 40px;
+    }
+    .streights .input-number__input {
+        width: 425px;
+    }
+    .streights .input-text__input{
+        width: 425px;
+    }
+    .section-form .left .checkboxes label {
+        color: rgb(255, 255, 255);
+        font-family: 'Manrope';
+        font-size: 10px;
+    }
+    .section-form .left {
+        width: 450px;
+        display: flex;
+        flex-direction: column;
+    }
+    .section-form .left label {
+        color: white;
+        font-family: 'Manrope';
+        font-size: 10px;
+    }
+    .section-form .left button {
+        width: 254px;
+        height: 37px;
+        align-self: center;
+    }
+    .section-form .left button p {
+        color: black;
+        text-transform: uppercase;
+        font-size: 10px;
+    }
+    .section-form .left {
+        height: 548px;
+    }
+    .section-footer .mini-con a img{
+        height: 25px;
+    }
+    .section-footer .footer {
+        width: 417px;
+    }
+
+    
+}
